@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:#e5e5fa ;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background: rgb(137, 63, 187);
+    text-align: center;
+    
+
+ }
+
+ .box input[type="text"], .box input[type="password"] {
+     background: none;
+     padding: 8px 10px;
+     margin: 30px auto;
+     display: block;
+     align-items: center;
+     border-radius: 25px;
+     width: 250px;
+     transition: 0.50s;
+     color: black;
+    border-radius: 25px;
+ }
+
+ button {
+     padding: 8px 10px;
+     margin: 30px auto;
+     display: block;
+     align-items: center;
+     border-radius: 25px;
+     width: 100px;
+     transition: 0.50s;
+     background: #b3b3ff;
+ }
+
+ button:hover{
+     background: rgb(178, 112, 204);
+ }
